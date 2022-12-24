@@ -1,13 +1,16 @@
-
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 body{
     margin:0;
     padding:0;
-    background-image:linear-gradient(#003459,#032137);
+    background-image:linear-gradient(#64a5ff,#003961);
 }
 
 header {
-    background-color:#032137;
-    z-index: 0;
+    background-color:#011b3f;
+    z-index: 1;
       
 }
 nav{
@@ -22,10 +25,24 @@ nav{
     padding: 0px 10px;
     color: white; 
 }
+.vm li {
+    display: inline-block;
+    padding: 0px 10px;}
 .a,.b {
     text-decoration: none;
     color:aliceblue;
-
+}
+.a:hover{
+    color:#06042f;
+    background-color: #64a5ff;
+    padding: 5px 10px;
+    border-radius: 16px;
+}
+.b:hover{
+    color:#06042f;
+    background-color: #64a5ff;
+    padding: 5px 10px;
+    border-radius: 16px;
 }
 .title{
     color:aliceblue;
@@ -44,38 +61,68 @@ nav{
     margin-left: 5px;
 }
 .intro{
-    position:fixed;
-    z-index:1;
+    position:absolute;
     left:0;
     top:0;
     width:100%;
     height: 100vh;
-    background-color:#161616;
+    background-image:linear-gradient(hsl(230, 100%, 16%),#06042f);
     color:aliceblue;
-    transition:1s;
+
+    opacity:1;
+    animation: bg 2s ease-out forwards;
+    
 }
 .logo-header{
     position :absolute;
     top:40%;
     left:50%;
     transform: translate(-50%,-50%);
+    color: white;
     opacity:1;
+}
+.img{
+    position:relative;
+    width:35vh;
+    padding:7% 42%;
+    padding-bottom: 5%;;
+    height:auto;
+    animation: logom 1.5s ease-out forwards;
 }
 .logo{
     position:relative;
     display:inline-block;
-    bottom:-20px;
-    opacity: 0;
+    color: white;
+    bottom:-25vh;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20vh;
+    animation: logom 1.5s ease-out forwards;
 }
-.logo.active{
-    bottom:0;
-    opacity: 1;
-    transition: ease-in-out 0.5s;
+@keyframes logom {
+    100%{
+        opacity: 0;
+        
+    }
+    33%{
+        opacity:1;
+    }
+    
 }
-.logo.fade{
-    bottom:150px;
-    opacity:0;
-    transition: ease-in-out 0.5s;
+
+@keyframes bg {
+    50%{
+        opacity:1;
+
+    }
+    90%{
+        opacity:0;
+        left:0%;
+    }
+    100%{
+        opacity:0;
+
+        left:200%
+    }
 }
 
 
