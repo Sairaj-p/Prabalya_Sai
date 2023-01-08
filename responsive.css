@@ -39,65 +39,65 @@
     }
     .college{
         left:2%;
-        top:12%;
+        top:100px;
         font-size: 190%;
     }
     .committee{
         left:2%;
         font-size: 140%;
-        top:18%;
+        top:152px;
     }
  
     .player{
-        width:40%;
-        top:15%;
-        left:60%;
+        width:34%;
+        top:145px;
+        left:66%;
     }
     .s3{
         height:700px;
     }
     .v{
-        top:55%;
+        top:450px;
     }
     .m{
-        top:80%;
+        top:660px;
     }
     .o{
-        top:100%;
+        top:830px;
     }
     .vt{
-        top:57%;
+        top:480px;
         width:20%;
         left:10%;
         text-align: center;
     }
     .mt{
-        top:79%;
+        top:660px;
         width:20%;
         left:10%;
         text-align: center;
     }
     .ot{
-        top:100%;
+        top:830px;
         left:10%;
     }
     .vision{
         font-size: small;
         left:9%;
-        top:47%;
+        top:390px;
     }
     .mission{
         font-size: small;
         left:9%;
-        top:62%;
+        top:510px;
     }
     .objective{
         font-size: small;
         left:9%;
-        top:77%;
+        top:630px;
     }.cardpop{
         z-index: 100;
-        top:-92%;
+        top:-400px;
         opacity: 0;
     }
     .cardpop:hover{
@@ -105,10 +105,10 @@
     }
     .card,.cardpop{
         width:100%;
-        height:90%;
+        height:400px;
     }
     .s4{
-        height:1300px;
+        height:1350px;
         width:100%;
         top:90%;
         background-color:#e30040;
@@ -116,24 +116,24 @@
     .column1{
         left:10%;
         align-items: center;
-        top:122%;
+        top:1020px;
         width:80%;
 
     }
     .column2{
         left:10%;
-        top:170%;
+        top:1460px;
         width:80%;
 
     }
     .column3{
         left:10%;
-        top:218%;
+        top:1900px;
         width:80%;
 
     }
     .copyright{
-        top:272%;
+        top:2380px;
         left:32%;
     }
     .s5{
