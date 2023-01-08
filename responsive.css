@@ -1,26 +1,43 @@
 @media screen and (max-width:600px){
     html, body {
-        max-width: 400px;
-        overflow-x: hidden;
+        max-width: 450px;
+        overflow-x:hidden;
     }
     body{
         margin:0;
         padding:0;
-        width:400px;
+        width:391px;
         background-color:rgb(188, 224, 255);
+        height:1000%;
+    }
+    .intro{
+        width:392px;
+        height:110%;
+    }
+    .img{
+        width:50%;
+        top:20%;
+        left:-10%;
+    }
+    .logo{
+        font-size: 356%;
     }
     .header{
-        width:400px;
+        width:391px;
+
+    }
+    .nav_links li {
+        padding: 0px 1.5px;
     }
     .college{
         left:1%;
-        top:13%;
+        top:12%;
         font-size: 200%;
     }
     .committee{
         left:1%;
         font-size: 150%;
-        top:22%;
+        top:20%;
     }
     .s2{
         height:300px;
@@ -34,54 +51,54 @@
         left:60%;
     }
     .s3{
-        height:600px;
+        height:700px;
     }
     .v{
-        top:65%;
+        top:55%;
     }
     .m{
-        top:95%;
+        top:80%;
     }
     .o{
-        top:117%;
+        top:100%;
     }
     .vt{
-        top:70%;
+        top:57%;
         width:20%;
         left:10%;
         text-align: center;
     }
     .mt{
-        top:93%;
+        top:79%;
         width:20%;
         left:10%;
         text-align: center;
     }
     .ot{
-        top:117%;
+        top:100%;
         left:10%;
     }
     .vision{
         font-size: small;
         left:9%;
-        top:57%;
+        top:47%;
     }
     .mission{
         font-size: small;
         left:9%;
-        top:72%;
+        top:62%;
     }
     .objective{
         font-size: small;
         left:9%;
-        top:85%;
+        top:77%;
     }
     .card{
         width:80%;
         height:90%;
     }
     .s4{
-        height:1000px;
+        height:1250px;
         width:100%;
         top:90%;
         background-color:#e30040;
@@ -89,23 +106,23 @@
     .column1{
         left:10%;
         align-items: center;
-        top:140%;
+        top:122%;
 
     }
     .column2{
         left:10%;
-        top:195%;
+        top:170%;
     }
     .column3{
         left:10%;
-        top:250%;
+        top:218%;
     }
     .copyright{
-        top:305%;
+        top:270%;
         left:35%;
     }
     .s5{
-        height:10%;
+        height:-10%;
     }
     
 }
