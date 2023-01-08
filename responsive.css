@@ -1,0 +1,111 @@
+@media screen and (max-width:600px){
+    html, body {
+        max-width: 400px;
+        overflow-x: hidden;
+    }
+    body{
+        margin:0;
+        padding:0;
+        width:400px;
+        background-color:rgb(188, 224, 255);
+    }
+    .header{
+        width:400px;
+    }
+    .college{
+        left:1%;
+        top:13%;
+        font-size: 200%;
+    }
+    .committee{
+        left:1%;
+        font-size: 150%;
+        top:22%;
+    }
+    .s2{
+        height:300px;
+        top:70%;
+        width:100%;
+        background-color:#011b3f;
+    }
+    .player{
+        width:50%;
+        top:15%;
+        left:60%;
+    }
+    .s3{
+        height:600px;
+    }
+    .v{
+        top:65%;
+    }
+    .m{
+        top:95%;
+    }
+    .o{
+        top:117%;
+    }
+    .vt{
+        top:70%;
+        width:20%;
+        left:10%;
+        text-align: center;
+    }
+    .mt{
+        top:93%;
+        width:20%;
+        left:10%;
+        text-align: center;
+    }
+    .ot{
+        top:117%;
+        left:10%;
+    }
+    .vision{
+        font-size: small;
+        left:9%;
+        top:57%;
+    }
+    .mission{
+        font-size: small;
+        left:9%;
+        top:72%;
+    }
+    .objective{
+        font-size: small;
+        left:9%;
+        top:85%;
+    }
+    .card{
+        width:80%;
+        height:90%;
+    }
+    .s4{
+        height:1000px;
+        width:100%;
+        top:90%;
+        background-color:#e30040;
+    }
+    .column1{
+        left:10%;
+        align-items: center;
+        top:140%;
+
+    }
+    .column2{
+        left:10%;
+        top:195%;
+    }
+    .column3{
+        left:10%;
+        top:250%;
+    }
+    .copyright{
+        top:305%;
+        left:35%;
+    }
+    .s5{
+        height:10%;
+    }
+    
+}
